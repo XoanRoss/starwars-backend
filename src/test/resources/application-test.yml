@@ -1,0 +1,5 @@
+api:
+  swapi:
+    base-url: http://localhost:${wiremock.server.port}
+    response-timeout: 5s
+    connect-timeout: 5s

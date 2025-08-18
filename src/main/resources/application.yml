@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: starwars-backend
+
+api:
+  swapi:
+    base-url: https://swapi.tech/api
+    response-timeout: 5s
+    connect-timeout: 5s
