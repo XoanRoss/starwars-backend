@@ -3,3 +3,9 @@ api:
     base-url: http://localhost:${wiremock.server.port}
     response-timeout: 5s
     connect-timeout: 5s
+
+cache:
+  caffeine:
+    expire-after-write: 1d
+    maximum-size: 1000
+    names: people
