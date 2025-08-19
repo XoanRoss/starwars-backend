@@ -4,6 +4,9 @@ api:
     response-timeout: 5s
     connect-timeout: 5s
 
+settings:
+  page-size: 15
+
 cache:
   caffeine:
     expire-after-write: 1d
