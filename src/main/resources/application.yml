@@ -12,4 +12,5 @@ cache:
   caffeine:
     expire-after-write: 1d
     maximum-size: 1000
-    names: people
+    names: people,planets
+
