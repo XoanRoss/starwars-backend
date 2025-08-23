@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    ports:
+      - "6969:8080"
+    restart: always
